@@ -1,0 +1,16 @@
+.nav-right{
+    float: right;
+}
+.logo-nav{
+    /* background: url(/src/assets/images/logo\ nav.png); */
+    width: 100px;
+    height: 70px;
+}
+.flx{
+    display: flex;
+}
+.actv-clr{
+    padding: 0 10px;
+    background-color: aqua;
+    border-radius: 20%;
+}
