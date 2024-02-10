@@ -1,10 +1,15 @@
+.clring{
+    background-color: #F8F7F4;
+}
+
+/* navigation */
 .nav-right{
     float: right;
 }
 .logo-nav{
     /* background: url(/src/assets/images/logo\ nav.png); */
     width: 100px;
-    height: 70px;
+    height: 100px;
 }
 .flx{
     display: flex;
@@ -13,4 +18,113 @@
     padding: 0 10px;
     background-color: aqua;
     border-radius: 20%;
+    font-weight: 500;
+}
+.hvr-grn{
+    background-color: #f8f7f4;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+.hvr-grnh{
+    padding: 0 10px;
+    background-color: #f8f7f4;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+.hvr-grn:hover{
+    background-color: rgb(0, 255, 0);
+    transition: 0.5s;
+}
+.hvr-grnh:hover{
+    background-color: rgb(0, 255, 0);
+    transition: 0.5s;
+}
+
+/* footer */
+.blck-footer{
+    background-color: rgb(14, 0, 41);
+    min-width: min-content;
+    height: 350px;
+}
+.evn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title-footer{
+    color: #F8F7F4;
+}
+.isi-ftr{
+    color: #cdcdcd;
+    font-size: 14px;
+}
+.isi-footer{
+    margin-top: 40px;
+}
+.footer1, .footer2{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+}
+.footer3, .footer4{
+    width: 220px;
+    height: 370px;
+    margin-top: 50px;
+}
+.pnjg{
+    width: 250px;
+}
+.arrw-footer{
+    margin: 14px 0 0 9px;
+}
+.arrw-bck{
+    cursor: pointer;
+    border-radius: 10%;
+    margin-left: 3px;
+    background-color: rgb(0, 126, 0);
+    width: 35px;
+    height: 30px;
+    transition: 0.5s;
+}
+.arrw-bck:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+.b{
+    margin: 10px 10px 0 0;
+}
+.fa{
+    margin: 10px 15px 0 3px;
+}
+.gh{
+    margin: 10px 16px 0 0;
+}
+.ghh{
+    margin: 10px 17px 0 0;
+}
+.ig{
+    margin: 10px 15px 0 0;
+}
+.tt{
+    margin: 10px 15px 0 0;
+}
+.wa{
+    margin: 10px 17px 0 0;
+}
+.dc{
+    margin: 10px 12px 0 0;
+}
+.undr{
+    text-decoration: none;
+}
+.inr1, .inr2{
+    color: #F8F7F4;
+    transition: 0.5s;
+}
+.cvr:hover .inr1{
+    color: rgb(0, 126, 0);
+    transition: 0.5s;
+}
+.cvr:hover .inr2{
+    color: aqua;
+    transition: 0.5s;
 }
