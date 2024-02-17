@@ -1,5 +1,5 @@
 .clring{
-    background-color: #F8F7F4;
+    background-color: #FFFEF7;
 }
 
 /* navigation */
@@ -7,7 +7,6 @@
     float: right;
 }
 .logo-nav{
-    /* background: url(/src/assets/images/logo\ nav.png); */
     width: 100px;
     height: 100px;
 }
@@ -21,13 +20,13 @@
     font-weight: 500;
 }
 .hvr-grn{
-    background-color: #f8f7f4;
+    background-color: #FFFEF7;
     border-radius: 20%;
     transition: 0.5s;
 }
 .hvr-grnh{
     padding: 0 10px;
-    background-color: #f8f7f4;
+    background-color: #FFFEF7;
     border-radius: 20%;
     transition: 0.5s;
 }
@@ -40,18 +39,49 @@
     transition: 0.5s;
 }
 
+/* Section */
+.s-mrgn{
+    margin: 100px 0;
+    justify-content: space-evenly;
+}
+
+/* section 1 */
+.card-title{
+    text-align: center;
+}
+.img-card{
+    border-radius: 3%;
+    margin: 20px 0 10px 25px;
+    height: 250px;
+    justify-content: center;
+}
+.card-desk{
+    text-decoration: none;
+    margin: 5px 20px;
+}
+.undr{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
 /* footer */
 .blck-footer{
     background-color: rgb(14, 0, 41);
     min-width: min-content;
     height: 350px;
+    margin-bottom: -100px;
 }
 .evn{
     display: flex;
     justify-content: space-evenly;
 }
 .title-footer{
-    color: #F8F7F4;
+    color: #FFFEF7;
 }
 .isi-ftr{
     color: #cdcdcd;
@@ -62,12 +92,12 @@
 }
 .footer1, .footer2{
     width: 300px;
-    height: 400px;
+    height: 300px;
     margin-top: 50px;
 }
 .footer3, .footer4{
     width: 220px;
-    height: 370px;
+    height: 300px;
     margin-top: 50px;
 }
 .pnjg{
@@ -76,19 +106,7 @@
 .arrw-footer{
     margin: 14px 0 0 9px;
 }
-.arrw-bck{
-    cursor: pointer;
-    border-radius: 10%;
-    margin-left: 3px;
-    background-color: rgb(0, 126, 0);
-    width: 35px;
-    height: 30px;
-    transition: 0.5s;
-}
-.arrw-bck:hover{
-    background-color: aqua;
-    transition: 0.5s;
-}
+
 .b{
     margin: 10px 10px 0 0;
 }
@@ -117,7 +135,7 @@
     text-decoration: none;
 }
 .inr1, .inr2{
-    color: #F8F7F4;
+    color: #FFFEF7;
     transition: 0.5s;
 }
 .cvr:hover .inr1{
@@ -127,4 +145,89 @@
 .cvr:hover .inr2{
     color: aqua;
     transition: 0.5s;
+}
+
+/* css nya yang dari ui verse */
+button {
+    font-family: inherit;
+    font-size: 12px;
+    background: linear-gradient(to bottom, #4dc7d9 0%,#66a6ff 100%);
+    color: white;
+    padding: 0.8em 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+  
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+  
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+  
+button span {
+    display: block;
+    margin-left: 0.4em;
+    transition: all 0.3s;
+}
+  
+button svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+    transition: all 0.3s;
+}
+  
+button .svg-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 0.5em;
+    transition: all 0.3s;
+}
+  
+button:hover .svg-wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+    
+button:hover svg {
+    transform: rotate(45deg);
+}
+    
+.card {
+    width: 300px;
+    height: 449px;
+    background-image: linear-gradient(163deg, #00e5ff 0%, #ff00f2 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.card2 {
+    margin-left: -1px;
+    width: 300px;
+    height: 450px;
+    background-color: #FFFEF7;
+    transition: all .2s;
+}
+   
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+   
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(255, 0, 234, 0.3);
 }
