@@ -31,11 +31,11 @@
     transition: 0.5s;
 }
 .hvr-grn:hover{
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 255, 208);
     transition: 0.5s;
 }
 .hvr-grnh:hover{
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 255, 208);
     transition: 0.5s;
 }
 
@@ -61,6 +61,7 @@
 }
 .undr{
     text-decoration: none;
+    cursor: pointer;
 }
 
 
